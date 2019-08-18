@@ -17,6 +17,15 @@ html,body
 	flex: 1
 }
 
+.nav-li {
+  cursor: pointer;
+}
+
+.nav-li:hover {
+	background-color: #49505f;
+}
+
+
 
 #nav-main { 
   background-color: #424A59; 
@@ -37,7 +46,7 @@ html,body
   display: inline-block;
 	margin: 10px;
 	padding: 11px;
-  border: 1px solid #fff;
+  border: 1px solid #606977;
 
 }
 
@@ -45,14 +54,14 @@ html,body
 /*<!-- ---------Header Section--------------->*/
 
 #header-main {
-	background: url(bg-forest.jpg) no-repeat center; 
+	background: url(img/bg-forest.jpg) no-repeat center; 
 	background-size: cover;
 	width: 100%;
 	height: 30em;
 }
 
 
-/*<!-- ---------Column 1--------------->*/
+/*<!-- ---------Column--------------->*/
 .column-1-align {flex: 1}
 .column-1-main {
 	width: 100%;
@@ -61,11 +70,14 @@ html,body
 }
 
 .column-style-div {
-	border: 1px solid black;
+	background-color: #f2f2f2;
+	box-shadow: 2px 2px 15px -2px rgba(0,0,0,0.75);
 	height: 266px;
     width: 258px;
 	margin: 9px;
 }
+
+/*<!-- ----Box 1-------->*/
 
 .column-1-div-1 {
 	
@@ -73,15 +85,26 @@ html,body
 }
 
 .bg-co-top-1 {
-	background: url(bg-forest.jpg) no-repeat center; 
+	background: url(img/leaves.jpeg) no-repeat center; 
 	background-size: cover;
 	width: 100%;
 	height: 50%;
 }
 
-.bg-co-top-1, button {
-
+.bg-co-top-1, .btn-1 {
+	color: #ffffff; 
+  background-color: #1BBD53; 
+	border-color: #0F6B25; 
 }
+
+.bg-co-top-1, .btn-1:hover {
+	color: #ffffff; 
+  background-color: #3AB35A; 
+	border-color: #0F6B25; 
+	cursor: pointer;
+}
+
+/*<!-- ----Box 2-------->*/
 
 .column-1-div-2 {
 
@@ -89,18 +112,96 @@ html,body
 }
 
 .bg-co-top-2 {
-	background: url(bg-forest.jpg) no-repeat center; 
+	background: url(img/trees.jpg) no-repeat center; 
 	background-size: cover;
 	width: 100%;
 	height: 50%;
 }
+
+.btn-2 {
+	color: #ffffff; 
+  background-color: #2087BE; 
+  border-color: #1B6A94; 
+	padding: 10px 29px;
+    font-size: 12px;
+    border-radius: 7px;
+}
+
+.btn-2:hover {
+	color: #FFFFFF; 
+  background-color: #1379B0; 
+  border-color: #1B6A94; 
+	cursor: pointer;
+}
+
+/*<!-- ----Box 3-------->*/
 
 .column-1-div-3 {
 
 }
 
 .bg-co-top-3 {
-	background: url(bg-forest.jpg) no-repeat center; 
+	background: url(img/bridge.jpeg) no-repeat center; 
+	background-size: cover;
+	width: 100%;
+	height: 50%;
+}
+
+.btn-3 {
+	color: #ffffff; 
+  background-color: #852510; 
+  border-color: #6B1E0D;  
+	padding: 10px 29px;
+    font-size: 12px;
+    border-radius: 7px;
+}
+
+.btn-3:hover {
+	color: #ffffff; 
+  background-color: #752A1A; 
+  border-color: #6B1E0D; 
+	cursor: pointer;
+}
+
+/*<!-- ----Box 4-------->*/
+
+.bg-co-top-4 {
+	background: url(img/canyon.jpeg) no-repeat center; 
+	background-size: cover;
+	width: 100%;
+	height: 50%;
+}
+
+.bg-co-top-5 {
+	background: url(img/railroad.jpeg) no-repeat center; 
+	background-size: cover;
+	width: 100%;
+	height: 50%;
+}
+
+.bg-co-top-6 {
+	background: url(img/steam.jpeg) no-repeat center; 
+	background-size: cover;
+	width: 100%;
+	height: 50%;
+}
+
+.bg-co-top-7 {
+	background: url(img/walkway.jpeg) no-repeat center; 
+	background-size: cover;
+	width: 100%;
+	height: 50%;
+}
+
+.bg-co-top-8 {
+	background: url(img/mountains.jpeg) no-repeat center; 
+	background-size: cover;
+	width: 100%;
+	height: 50%;
+}
+
+.bg-co-top-9 {
+	background: url(img/city.jpeg) no-repeat center; 
 	background-size: cover;
 	width: 100%;
 	height: 50%;
@@ -108,10 +209,11 @@ html,body
 
 
 
+
 /*<!-- ---------Header 2--------------->*/
 
 #header-2 {
-	background: url(bg-forest.jpg) no-repeat center; 
+	background: url(img/beach.jpeg) no-repeat center; 
 	background-size: cover;
 	width: 100%;
 	height: 11em;
@@ -136,7 +238,7 @@ html,body
 }
 
 .bg-co-top-final {
-	background: url(bg-forest.jpg) no-repeat center; 
+	background: url(img/leaves.jpeg) no-repeat center; 
 	background-size: cover;
 	width: 100%;
 	height: 75%;
@@ -152,7 +254,7 @@ html,body
 /*<!-- ---------Contact Form--------------->*/
 
 #contact-form-main {
-	background: url(bg-forest.jpg) no-repeat center; 
+	background: url(img/city.jpeg) no-repeat center; 
 	background-size: cover;
 	width: 100%;
 	height: 20em;
