@@ -1,0 +1,175 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+/*<!-- ---------Navigation Area--------------->*/
+.nav-logo {
+/*	border: 1px solid green;*/
+	flex: 1
+}
+.nav-icon {
+/*	border: 1px solid blue;*/
+	flex: 1
+}
+
+
+#nav-main { 
+  background-color: #424A59; 
+  color: white;
+  display: flex;
+}
+
+.nav-ul {
+  list-style-type: none;
+/*  border: 1px solid red;*/
+/*  flex: 3;*/
+  padding: 0px;
+  margin: 5px;
+  
+}
+
+.nav-li {
+  display: inline-block;
+	margin: 10px;
+	padding: 11px;
+  border: 1px solid #fff;
+
+}
+
+
+/*<!-- ---------Header Section--------------->*/
+
+#header-main {
+	background: url(bg-forest.jpg) no-repeat center; 
+	background-size: cover;
+	width: 100%;
+	height: 30em;
+}
+
+
+/*<!-- ---------Column 1--------------->*/
+.column-1-align {flex: 1}
+.column-1-main {
+	width: 100%;
+	height: 18em;
+	display: flex;
+}
+
+.column-style-div {
+	border: 1px solid black;
+	height: 266px;
+    width: 258px;
+	margin: 9px;
+}
+
+.column-1-div-1 {
+	
+	
+}
+
+.bg-co-top-1 {
+	background: url(bg-forest.jpg) no-repeat center; 
+	background-size: cover;
+	width: 100%;
+	height: 50%;
+}
+
+.bg-co-top-1, button {
+
+}
+
+.column-1-div-2 {
+
+	
+}
+
+.bg-co-top-2 {
+	background: url(bg-forest.jpg) no-repeat center; 
+	background-size: cover;
+	width: 100%;
+	height: 50%;
+}
+
+.column-1-div-3 {
+
+}
+
+.bg-co-top-3 {
+	background: url(bg-forest.jpg) no-repeat center; 
+	background-size: cover;
+	width: 100%;
+	height: 50%;
+}
+
+
+
+/*<!-- ---------Header 2--------------->*/
+
+#header-2 {
+	background: url(bg-forest.jpg) no-repeat center; 
+	background-size: cover;
+	width: 100%;
+	height: 11em;
+}
+
+
+#header-2, h2 {
+	text-algin: center;
+	color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+
+
+/*<!-- ---------Column Final--------------->*/
+.column-1-div-final {
+	border: 1px solid black;
+	height: 466px;
+    width: 758px;
+	margin: 20px;
+}
+
+.bg-co-top-final {
+	background: url(bg-forest.jpg) no-repeat center; 
+	background-size: cover;
+	width: 100%;
+	height: 75%;
+}
+
+.column-1-final {
+    width: 100%;
+    display: flex;
+}
+
+
+
+/*<!-- ---------Contact Form--------------->*/
+
+#contact-form-main {
+	background: url(bg-forest.jpg) no-repeat center; 
+	background-size: cover;
+	width: 100%;
+	height: 20em;
+}
+
+
+/*<!-- ---------Footer--------------->*/
+footer {
+	background-color: grey;
+	width: 100%;
+	height: 7em;
+}
+
+.credit {
+	background-color: grey;
+	width: 100%;
+	height: 2em;
+	border-top: 1px solid black;
+}
+
