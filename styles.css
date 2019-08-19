@@ -278,6 +278,12 @@ html,body
 
 /*<!-- ---------Contact Form--------------->*/
 
+input[type="text"], textarea {
+
+  background-color : #d1d1d1; 
+
+}
+
 #contact-form-main {
 	background: url(img/city.jpeg) no-repeat center; 
 	background-size: cover;
@@ -288,16 +294,22 @@ html,body
 .left-contact-main {
 	display: flex; 
 	flex-direction: column;
-	width: 131px;
+	width: 240px;
 	margin: 0 auto;
 	padding: 50px;
 }
 
 .right-contact-main {
 	display: flex; 
-			width: 131px;
-			margin: 0 auto;
-			padding: 50px;
+	flex-direction: column;
+	position: relative;
+	left: -40px;
+}
+
+.right-contact-main, input[type="text"], textarea {
+	width: 300px;
+	height: 200px;
+	
 }
 
 
