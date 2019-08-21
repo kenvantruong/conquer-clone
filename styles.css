@@ -84,7 +84,8 @@ html, body {
 /*<!-- ---------Column--------------->*/
 .column-1-align {flex: 1}
 .column-1-main {
-	width: 100%;
+	width: 86%;
+    margin: 0 auto;
 	height: 18em;
 	display: flex;
 }
@@ -93,8 +94,8 @@ html, body {
 	background-color: #f2f2f2;
 	box-shadow: 2px 2px 15px -2px rgba(0,0,0,0.75);
 	height: 282px;
-    width: 258px;
-	margin: 9px;
+	width: 44%;
+	margin: 6px;
 }
 
 .bg-co-top-1-h3 {
@@ -150,12 +151,16 @@ html, body {
 /*<!-- ----Box 2-------->*/
 
 .column-1-div-2 {
+	
+	
+}
 
+.responsive-div-btn {
 	
 }
 
 .bg-co-top-2 {
-	background: url(img/trees.jpg) no-repeat center; 
+	backgound: url(img/trees.jpg) no-repeat center; 
 	background-size: cover;
 	width: 100%;
 	height: 50%;
@@ -276,13 +281,13 @@ html, body {
 	background: url(img/beach.jpeg) no-repeat center; 
 	background-size: cover;
 	width: 100%;
-	height: 52%;
+	height: 209px;
     margin-top: 33px;
 }
 
 
 .header-2-h2 {
-	text-algin: center;
+	text-align: center;
 	color: white;
 	font-size: 33px;
 	text-align: center;

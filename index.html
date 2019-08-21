@@ -53,8 +53,8 @@
 	<div class="column-style-div column-1-div-2">
 		<div class="bg-co-top-2"></div>
 		<h3 style="text-align: center; margin-top: 10px;">Responsive</h3>
-		<p style="padding: 10px 10px 0px 10px;">don't look even slightly believable. If you are going to use a</p>
-		<div style="display: flex; margin: 10px 10px 0px 10px;">
+		<p class="responsive-div">don't look even slightly believable. If you are going to use a</p>
+		<div style="display: flex;" class="responsive-div-btn">
 <!--			<div style="flex: 1"></div>-->
 			<button class="btn-2" style="margin: 0 auto;">See Details</button>
 <!--			<div style="flex: 1"></div>-->
@@ -258,7 +258,7 @@
 		
 	.mq-style-li {
 		margin: 5px 0px;
-/*		color: red;*/
+		color: red;
 	}
 		 .bg-co-top-1,
 		 .bg-co-top-2,
@@ -282,6 +282,10 @@
 		.bg-co-top-final {
 			 height: 70%;
 		 }
+
+		 /* .responsive-div-btn {
+	margin: 19px 10px 0px 10px;
+} */
 }
 	
 	
@@ -290,7 +294,7 @@
 	.mq-style-li {
     	padding: 4px;
 		margin: 5px 0px;
-/*		color: green;*/
+		color: green;
 	}
 		 
 		 .bg-co-top-1,
@@ -309,7 +313,47 @@
 			 height: 70%;
 		 }
 		 
-		 
+		 .left-contact-main, input[type="input"], textarea {
+    width: 214px;
+    height: 28px;
+    margin-top: 7px;
+}
+.left-contact-main {
+    display: grid;
+    width: 240px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+
+.right-contact-main, input[type="text"], textarea {
+    width: 113px;
+    height: 105px;
+}
+.right-contact-main {
+    display: grid;
+    position: relative;
+    left: -17px;
+    top: 5px;
+}
+
+.right-contact-main, input[type="text"], textarea {
+    width: 113px;
+    height: 105px;
+}
+.left-contact-main, input[type="input"], textarea {
+    width: 214px;
+    height: 28px;
+    margin-top: 7px;
+}
+
+.responsive-div {
+	padding: 0px 6px;
+}
+
+.responsive-div-btn {
+	margin: 19px 10px 0px 10px;
+}
 		 
 }
 	
@@ -323,7 +367,7 @@
 	.mq-style-li {
     	padding: 4px;
 		margin: 5px 0px;
-/*		color: yellow;*/
+		color: yellow;
 	}
 		 
 		 .bg-co-top-1,
@@ -341,6 +385,9 @@
 		 .bg-co-top-final {
 			 height: 70%;
 		 }
+
+
+		 
 		 
 		 
 		 
