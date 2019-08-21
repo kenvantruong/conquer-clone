@@ -337,8 +337,21 @@ html, body {
 input[type="text"], textarea {
 
 	background-color: rgba(179, 185, 186, 0.6);
+	color: #000;
 
 }
+
+.r-c-m-type-text {
+	color: #000;
+	background-color: rgba(179, 185, 186, 0.6);
+
+}
+
+.r-c-m-type-text:focus { 
+	color: #000;
+    background-color: rgba(179, 185, 186, 0.6);
+}
+
 
 #contact-form-main {
 	background: url(img/city.jpeg) no-repeat center; 
@@ -351,13 +364,12 @@ input[type="text"], textarea {
 	display: grid; 
 	width: 240px;
 	margin: 0 auto;
-	padding: 50px;
 	
 }
 
 .l-c-m-input {
 	background-color: rgba(179, 185, 186, 0.6); 
-color: rgba(179, 185, 186, 0.6);
+	color: #000;
 border: none;
 }
 
@@ -376,8 +388,7 @@ border: none;
 
 .right-contact-main {
 	display: grid; 
-	position: relative;
-	left: -40px;
+	margin: 0 auto;
 }
 
 .right-contact-main, input[type="text"], textarea {
@@ -420,6 +431,20 @@ footer {
 	width: 100%;
 	height: 2em;
 	border-top: 1px solid #d4cdcd;
+}
+
+.testing-media {
+	display: inline-block;
+}
+
+.arrow-font-cs {
+	font-size: 33px;
+	display: inline-block;
+	float: right;
+	position: relative;
+	bottom: 11px;
+	right: 5px;
+	
 }
 
 
