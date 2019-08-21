@@ -92,7 +92,7 @@ html, body {
 .column-style-div {
 	background-color: #f2f2f2;
 	box-shadow: 2px 2px 15px -2px rgba(0,0,0,0.75);
-	height: 266px;
+	height: 282px;
     width: 258px;
 	margin: 9px;
 }
@@ -120,17 +120,23 @@ html, body {
 	background-size: cover;
 	width: 100%;
 	height: 50%;
+	
 }
 
-.bg-co-top-1, .btn-1 {
+.btn-1 {
 	color: #ffffff; 
-  background-color: #1BBD53; 
+  	background-color: #1BBD53; 
 	border-color: #0F6B25; 
+	
+	margin: 0 auto; 
+	font-size: 12px;
+	padding: 10px 29px;
+	border-radius: 7px;
 }
 
 .bg-co-top-1, .btn-1:hover {
 	color: #ffffff; 
-  background-color: #3AB35A; 
+  	background-color: #3AB35A; 
 	border-color: #0F6B25; 
 	cursor: pointer;
 }
@@ -270,7 +276,8 @@ html, body {
 	background: url(img/beach.jpeg) no-repeat center; 
 	background-size: cover;
 	width: 100%;
-	height: 11em;
+	height: 52%;
+    margin-top: 33px;
 }
 
 
@@ -329,24 +336,33 @@ input[type="text"], textarea {
 }
 
 .left-contact-main {
-	display: flex; 
-	flex-direction: column;
+	display: grid; 
 	width: 240px;
 	margin: 0 auto;
 	padding: 50px;
 }
 
+.left-contact-main, input[type="input"], textarea {
+	width: 300px;
+	height: 28px;
+	margin-top: 7px;
+	
+}
+
 .right-contact-main {
-	display: flex; 
-	flex-direction: column;
+	display: grid; 
 	position: relative;
 	left: -40px;
 }
 
 .right-contact-main, input[type="text"], textarea {
 	width: 300px;
-	height: 200px;
+	height: 178px;
 	
+}
+
+.btn-forms-end {
+	display: inline-grid;
 }
 
 
@@ -368,45 +384,4 @@ footer {
 
 
 
-/*<!-- ---------Media Queries--------------->*/
-
-
-	@media only screen and (min-width: 2000px) {
-        /* Mac Screens */
-    }
-	
-	@media only screen and (min-width: 1440px) {
-        /* Larger than 1440px; */
-    }
-	
-
-	@media only screen and (min-width: 960px) {
-        /* Larger than 960px; */
-    }
-	
-	@media only screen and (device-width: 768px) {
-       /* iPad Screens */
-	.mq-style-li {
-		padding: 16px;
-		margin: 5px 0px;
-		color: blue;
-
-		}
-    }
-	
-	@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
-	.mq-style-li {
-		margin: 5px 0px;
-		color: red;
-	}
-}
-	
-	 @media only screen and (max-device-width: 480px) {
-       /* Smaller than 480px - (iPhone) */
-	.mq-style-li {
-    	padding: 4px;
-		margin: 5px 0px;
-		color: green;
-	}
-}
 

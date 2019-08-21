@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
   <link rel="stylesheet" href="styles.css">
-
+  <link rel="stylesheet" href="css/mediaqueries.css">
 
   <title>Conquer Clone</title>
 </head>
@@ -42,19 +42,17 @@
 <div class="column-1-main" style="padding-top: 20px;">
 <div class="column-1-align "></div>
 	<div class="column-style-div column-1-div-1">
-		<div class="bg-co-top-1"></div>
+		<div class="bg-co-top-1 md-bg-co-1"></div>
 		<h3 class="bg-co-top-1-h3">Bootstrap v3.3.6</h3>
 		<p class="bg-co-top-1-p">don't look even slightly believable. If you are going to use a</p>
 		<div class="bg-co-top-1-btn-div">
-			<button class="btn-1" style="margin: 0 auto; padding: 10px 29px;
-			font-size: 12px;
-			border-radius: 7px;">Button Green</button>
+			<button class="btn-1">Button Green</button>
 		</div>
 		
 	</div>
 	<div class="column-style-div column-1-div-2">
 		<div class="bg-co-top-2"></div>
-		<h3 style="text-align: center; margin-top: 10px;">Responsive Design</h3>
+		<h3 style="text-align: center; margin-top: 10px;">Responsive</h3>
 		<p style="padding: 10px 10px 0px 10px;">don't look even slightly believable. If you are going to use a</p>
 		<div style="display: flex; margin: 10px 10px 0px 10px;">
 <!--			<div style="flex: 1"></div>-->
@@ -137,7 +135,7 @@
 		<div class="bg-co-top-7"></div>
 		<h3 style="text-align: center; margin-top: 10px;">Column Two</h3>
 		<p style="padding: 10px 10px 0px 10px;">don't look even slightly believable. If you are going to use a</p>
-		<div style="display: flex; margin: 10px 10px 0px 10px;">
+		<div style="display: flex;">
 			<button class="btn-1-5">Read It</button>
 		</div>
 		
@@ -192,18 +190,18 @@
 	<div style="display: flex">
 		<div class="left-contact-main">
 		
-			<div>
-				<input type="text" placeholder="Name" style="flex: 2; margin: 5px 0px; width: 246px; height: 20px;">
-				<input type="text" placeholder="Email" style="flex: 2; margin: 5px 0px; width: 246px; height: 20px;">
-				<input type="text" placeholder="Subject" style="flex: 2; margin: 5px 0px; width: 246px; height: 20px;">
+			<div style="display: grid">
+				<input type="input" placeholder="Name" style="display: inline-grid">
+				<input type="input" placeholder="Email" style="display: inline-grid ">
+				<input type="input" placeholder="Subject" style="display: inline-grid ">
 			</div>
 			
 		</div>
 		
 		<div class="right-contact-main">
 		
-			<textarea type="text"></textarea>
-			<button>Submit</button>
+			<textarea type="text" style="display: inline-grid"></textarea>
+			<button class="btn-forms-end">Submit</button>
 		</div>
 		
 		
@@ -229,6 +227,124 @@
 
 
 <style type="text/css">
+	/*<!-- ---------Media Queries--------------->*/
+
+
+	@media only screen and (min-width: 2000px) {
+        /* Mac Screens */
+    }
+	
+	@media only screen and (min-width: 1440px) {
+        /* Larger than 1440px; */
+    }
+	
+
+	@media only screen and (min-width: 960px) {
+        /* Larger than 960px; */
+    }
+	
+	@media only screen and (device-width: 768px) {
+       /* iPad Screens */
+		.mq-style-li {
+		padding: 16px;
+		margin: 5px 0px;
+		color: blue;
+
+		}
+		
+    	}
+	
+	@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+		
+	.mq-style-li {
+		margin: 5px 0px;
+/*		color: red;*/
+	}
+		 .bg-co-top-1,
+		 .bg-co-top-2,
+		 .bg-co-top-3,
+		 .bg-co-top-4,
+		 .bg-co-top-5,
+		 .bg-co-top-6,
+		  {
+    	height: 43%;
+		}
+		
+		.bg-co-top-7,
+		 .bg-co-top-8,
+		.bg-co-top-9 { height: 40%;}
+		
+		.bg-co-top-1-btn-div {
+	display: flex; 
+	margin: 9px 0px;
+}
+		
+		.bg-co-top-final {
+			 height: 70%;
+		 }
+}
+	
+	
+	 @media only screen and (max-device-width: 480px) {
+       /* Smaller than 480px - (iPhone) */
+	.mq-style-li {
+    	padding: 4px;
+		margin: 5px 0px;
+/*		color: green;*/
+	}
+		 
+		 .bg-co-top-1,
+		 .bg-co-top-2,
+		 .bg-co-top-3,
+		 .bg-co-top-4,
+		 .bg-co-top-5,
+		 .bg-co-top-6,
+		 .bg-co-top-7,
+		 .bg-co-top-8,
+		 .bg-co-top-9 {
+    	height: 25%;
+		}
+		 
+		 .bg-co-top-final {
+			 height: 70%;
+		 }
+		 
+		 
+		 
+}
+	
+	
+	
+	
+/*	---------Custom Media Query -------*/
+	
+			 @media screen and (min-device-width: 473px) and (max-device-width: 481px) {
+       /* Smaller than 473px - (iPhone) */
+	.mq-style-li {
+    	padding: 4px;
+		margin: 5px 0px;
+/*		color: yellow;*/
+	}
+		 
+		 .bg-co-top-1,
+		 .bg-co-top-2,
+		 .bg-co-top-3,
+		 .bg-co-top-4,
+		 .bg-co-top-5,
+		 .bg-co-top-6,
+		 .bg-co-top-7,
+		 .bg-co-top-8,
+		 .bg-co-top-9 {
+    		height: 35%;
+		}
+				 
+		 .bg-co-top-final {
+			 height: 70%;
+		 }
+		 
+		 
+		 
+}
 
 </style>
 
