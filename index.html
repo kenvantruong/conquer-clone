@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="css/mediaqueries.css">
+  <link rel='stylesheet' media='screen and (max-width: 700px)' href='media-queries.css' />
 
   <title>Conquer Clone</title>
 </head>
@@ -191,9 +191,9 @@
 		<div class="left-contact-main">
 		
 			<div style="display: grid">
-				<input type="input" placeholder="Name" style="display: inline-grid">
-				<input type="input" placeholder="Email" style="display: inline-grid ">
-				<input type="input" placeholder="Subject" style="display: inline-grid ">
+				<input class="l-c-m-input" type="input" placeholder="Name" style="display: inline-grid">
+				<input class="l-c-m-input" type="input" placeholder="Email" style="display: inline-grid ">
+				<input class="l-c-m-input" type="input" placeholder="Subject" style="display: inline-grid ">
 			</div>
 			
 		</div>
@@ -211,199 +211,13 @@
 
 <!-- --------------- Footer ------------------> 
 <footer style="text-align: center;">
-	<h2>Ue it free!</h2>
-	<p>"Conquer is free Bootstrap template from template website. No backlink is required to use this layout."</p>
+	<h2 class="footer-h2">Ue it free!</h2>
+	<p class="footer-p">"Conquer is free Bootstrap template from template website. No backlink is required to use this layout."</p>
 </footer>
 <div style="text-align: center; padding: 2px;" class="credit">
 	<p class="testing-media">Copyright 2019 Ken | Design: templatemo</p>
 </div>
 
-
-
-
-
-
-<!----------------- Media Queries -------------------->
-
-
-<style type="text/css">
-	/*<!-- ---------Media Queries--------------->*/
-
-
-	@media only screen and (min-width: 2000px) {
-        /* Mac Screens */
-    }
-	
-	@media only screen and (min-width: 1440px) {
-        /* Larger than 1440px; */
-    }
-	
-
-	@media only screen and (min-width: 960px) {
-        /* Larger than 960px; */
-    }
-	
-	@media only screen and (device-width: 768px) {
-       /* iPad Screens */
-		.mq-style-li {
-		padding: 16px;
-		margin: 5px 0px;
-		color: blue;
-
-		}
-		
-    	}
-	
-	@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
-		
-	.mq-style-li {
-		margin: 5px 0px;
-		color: red;
-	}
-		 .bg-co-top-1,
-		 .bg-co-top-2,
-		 .bg-co-top-3,
-		 .bg-co-top-4,
-		 .bg-co-top-5,
-		 .bg-co-top-6,
-		  {
-    	height: 43%;
-		}
-		
-		.bg-co-top-7,
-		 .bg-co-top-8,
-		.bg-co-top-9 { height: 40%;}
-		
-		.bg-co-top-1-btn-div {
-	display: flex; 
-	margin: 9px 0px;
-}
-		
-		.bg-co-top-final {
-			 height: 70%;
-		 }
-
-		 /* .responsive-div-btn {
-	margin: 19px 10px 0px 10px;
-} */
-}
-	
-	
-	 @media only screen and (max-device-width: 480px) {
-       /* Smaller than 480px - (iPhone) */
-	.mq-style-li {
-    	padding: 4px;
-		margin: 5px 0px;
-		color: green;
-	}
-
-	.column-1-main {
-	width: 100%;
-	}
-
-	.two-column-left-side-btn-div {
-	display: flex; 
-	margin: 19px 10px 0px 10px;
-}
-
-		 
-		 .bg-co-top-1,
-		 .bg-co-top-2,
-		 .bg-co-top-3,
-		 .bg-co-top-4,
-		 .bg-co-top-5,
-		 .bg-co-top-6,
-		 .bg-co-top-7,
-		 .bg-co-top-8,
-		 .bg-co-top-9 {
-    	height: 25%;
-		}
-		 
-		 .bg-co-top-final {
-			 height: 70%;
-		 }
-		 
-		 .left-contact-main, input[type="input"], textarea {
-    width: 214px;
-    height: 28px;
-    margin-top: 7px;
-}
-.left-contact-main {
-    display: grid;
-    width: 240px;
-    margin: 0 auto;
-    padding: 0px;
-}
-
-
-.right-contact-main, input[type="text"], textarea {
-    width: 113px;
-    height: 105px;
-}
-.right-contact-main {
-    display: grid;
-    position: relative;
-    left: -17px;
-    top: 5px;
-}
-
-.right-contact-main, input[type="text"], textarea {
-    width: 113px;
-    height: 105px;
-}
-.left-contact-main, input[type="input"], textarea {
-    width: 214px;
-    height: 28px;
-    margin-top: 7px;
-}
-
-.responsive-div {
-	padding: 0px 6px;
-}
-
-.responsive-div-btn {
-	margin: 19px 10px 0px 10px;
-}
-		 
-}
-	
-	
-	
-	
-/*	---------Custom Media Query -------*/
-	
-			 @media screen and (min-device-width: 473px) and (max-device-width: 481px) {
-       /* Smaller than 473px - (iPhone) */
-	.mq-style-li {
-    	padding: 4px;
-		margin: 5px 0px;
-		color: yellow;
-	}
-		 
-		 .bg-co-top-1,
-		 .bg-co-top-2,
-		 .bg-co-top-3,
-		 .bg-co-top-4,
-		 .bg-co-top-5,
-		 .bg-co-top-6,
-		 .bg-co-top-7,
-		 .bg-co-top-8,
-		 .bg-co-top-9 {
-    		height: 35%;
-		}
-				 
-		 .bg-co-top-final {
-			 height: 70%;
-		 }
-
-
-		 
-		 
-		 
-		 
-}
-
-</style>
 
 </body>
 </html>

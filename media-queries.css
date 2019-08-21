@@ -1,0 +1,193 @@
+	/*<!-- ---------Media Queries--------------->*/
+
+
+	@media only screen and (min-width: 2000px) {
+        /* Mac Screens */
+    }
+	
+	@media only screen and (min-width: 1440px) {
+        /* Larger than 1440px; */
+    }
+	
+
+	@media only screen and (min-width: 960px) {
+        /* Larger than 960px; */
+    }
+	
+	@media only screen and (device-width: 768px) {
+       /* iPad Screens */
+		.mq-style-li {
+		padding: 16px;
+		margin: 5px 0px;
+		color: blue;
+
+		}
+		
+    	}
+	
+	@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+		
+	.mq-style-li {
+		margin: 5px 0px;
+		color: red;
+	}
+		 .bg-co-top-1,
+		 .bg-co-top-2,
+		 .bg-co-top-3,
+		 .bg-co-top-4,
+		 .bg-co-top-5,
+		 .bg-co-top-6,
+		  {
+    	height: 43%;
+		}
+		
+		.bg-co-top-7,
+		 .bg-co-top-8,
+		.bg-co-top-9 { height: 40%;}
+		
+		.bg-co-top-1-btn-div {
+	display: flex; 
+	margin: 9px 0px;
+}
+		
+		.bg-co-top-final {
+			 height: 70%;
+		 }
+
+		 /* .responsive-div-btn {
+	margin: 19px 10px 0px 10px;
+} */
+}
+	
+	
+	 @media only screen and (max-device-width: 480px) {
+       /* Smaller than 480px - (iPhone) */
+	.mq-style-li {
+    	padding: 4px;
+		margin: 5px 0px;
+		color: green;
+	}
+
+	.column-1-main {
+	width: 100%;
+	}
+
+	.two-column-left-side-btn-div {
+	display: flex; 
+	margin: 19px 10px 0px 10px;
+}
+
+.btn-forms-end {
+    display: inline-grid;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.btn-1-5 {
+    color: #746F6B;
+    background-color: #fff;
+    border-color: #746F6B;
+    padding: 9px;
+    font-size: 16px;
+    border-radius: 11px;
+    margin: 0 auto;
+    position: relative;
+    top: 6px;
+}
+
+		 
+		 .bg-co-top-1,
+		 .bg-co-top-2,
+		 .bg-co-top-3,
+		 .bg-co-top-4,
+		 .bg-co-top-5,
+		 .bg-co-top-6,
+		 .bg-co-top-7,
+		 .bg-co-top-8,
+		 .bg-co-top-9 {
+    	height: 25%;
+		}
+		 
+		 .bg-co-top-final {
+			 height: 70%;
+		 }
+		 
+		 .left-contact-main, input[type="input"], textarea {
+    width: 214px;
+    height: 28px;
+    margin-top: 7px;
+}
+.left-contact-main {
+    display: grid;
+    width: 240px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+
+.right-contact-main, input[type="text"], textarea {
+    width: 113px;
+    height: 105px;
+}
+.right-contact-main {
+    display: grid;
+    position: relative;
+    left: -17px;
+    top: 5px;
+}
+
+.right-contact-main, input[type="text"], textarea {
+    width: 113px;
+    height: 105px;
+}
+.left-contact-main, input[type="input"], textarea {
+    /* width: 214px;
+    height: 28px; */
+    margin-top: 7px;
+}
+
+.responsive-div {
+	padding: 0px 6px;
+}
+
+.responsive-div-btn {
+	margin: 19px 10px 0px 10px;
+}
+		 
+}
+	
+	
+	
+	
+/*	---------Custom Media Query -------*/
+	
+			 @media screen and (min-device-width: 473px) and (max-device-width: 481px) {
+       /* Smaller than 473px - (iPhone) */
+	.mq-style-li {
+    	padding: 4px;
+		margin: 5px 0px;
+		color: yellow;
+	}
+		 
+		 .bg-co-top-1,
+		 .bg-co-top-2,
+		 .bg-co-top-3,
+		 .bg-co-top-4,
+		 .bg-co-top-5,
+		 .bg-co-top-6,
+		 .bg-co-top-7,
+		 .bg-co-top-8,
+		 .bg-co-top-9 {
+    		height: 35%;
+		}
+				 
+		 .bg-co-top-final {
+			 height: 70%;
+		 }
+
+
+		 
+		 
+		 
+		 
+}
