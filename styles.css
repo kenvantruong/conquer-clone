@@ -7,6 +7,10 @@ html,body
     overflow-x: hidden; 
 }
 
+html, body {
+    
+}
+
 /*<!-- ---------Navigation Area--------------->*/
 .nav-logo {
 /*	border: 1px solid green;*/
@@ -60,6 +64,22 @@ html,body
 	height: 30em;
 }
 
+.header-h1 {
+	color: white;
+  	text-shadow:
+   	-1px -1px 0 #606977,  
+    1px -1px 0 #606977,
+    -1px 1px 0 #606977,
+    1px 1px 0 #606977;
+	font-size: 3.6em; 
+	padding-top: 200px;"
+}
+
+.header-h3 {
+	color: white; 
+	margin-top: 4px;
+}
+
 
 /*<!-- ---------Column--------------->*/
 .column-1-align {flex: 1}
@@ -76,6 +96,17 @@ html,body
     width: 258px;
 	margin: 9px;
 }
+
+.bg-co-top-1-h3 {
+	text-align: center; 
+	margin-top: 10px;
+}
+
+.bg-co-top-1-p {
+	padding: 10px 10px 0px 10px;
+}
+
+
 
 /*<!-- ----Box 1-------->*/
 
@@ -103,6 +134,12 @@ html,body
 	border-color: #0F6B25; 
 	cursor: pointer;
 }
+
+.bg-co-top-1-btn-div {
+	display: flex; 
+	margin: 10px 10px 0px 10px;
+}
+
 
 /*<!-- ----Box 2-------->*/
 
@@ -314,6 +351,7 @@ input[type="text"], textarea {
 
 
 /*<!-- ---------Footer--------------->*/
+
 footer {
 	background-color: grey;
 	width: 100%;
@@ -325,5 +363,50 @@ footer {
 	width: 100%;
 	height: 2em;
 	border-top: 1px solid black;
+}
+
+
+
+
+/*<!-- ---------Media Queries--------------->*/
+
+
+	@media only screen and (min-width: 2000px) {
+        /* Mac Screens */
+    }
+	
+	@media only screen and (min-width: 1440px) {
+        /* Larger than 1440px; */
+    }
+	
+
+	@media only screen and (min-width: 960px) {
+        /* Larger than 960px; */
+    }
+	
+	@media only screen and (device-width: 768px) {
+       /* iPad Screens */
+	.mq-style-li {
+		padding: 16px;
+		margin: 5px 0px;
+		color: blue;
+
+		}
+    }
+	
+	@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+	.mq-style-li {
+		margin: 5px 0px;
+		color: red;
+	}
+}
+	
+	 @media only screen and (max-device-width: 480px) {
+       /* Smaller than 480px - (iPhone) */
+	.mq-style-li {
+    	padding: 4px;
+		margin: 5px 0px;
+		color: green;
+	}
 }
 
