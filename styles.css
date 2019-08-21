@@ -160,7 +160,7 @@ html, body {
 }
 
 .bg-co-top-2 {
-	backgound: url(img/trees.jpg) no-repeat center; 
+	background: url(img/trees.jpg) no-repeat center; 
 	background-size: cover;
 	width: 100%;
 	height: 50%;
@@ -270,6 +270,11 @@ html, body {
 	background-size: cover;
 	width: 100%;
 	height: 50%;
+}
+
+.two-column-left-side-btn-div {
+	display: flex; 
+	margin: 10px 10px 0px 10px;
 }
 
 
