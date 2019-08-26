@@ -167,12 +167,16 @@ html, body {
 }
 
 .btn-2 {
-	color: #ffffff; 
-  background-color: #2087BE; 
+
+
+		color: #ffffff; 
+  	background-color: #2087BE; 
   border-color: #1B6A94; 
+	
+	margin: 0 auto; 
+	font-size: 12px;
 	padding: 10px 29px;
-    font-size: 12px;
-    border-radius: 7px;
+	border-radius: 7px;
 }
 
 .btn-2:hover {
