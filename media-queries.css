@@ -13,23 +13,36 @@
 	@media only screen and (min-width: 960px) {
         /* Larger than 960px; */
     }
+
+
+@media screen and (min-device-width: 549px) and (max-device-width: 7680px) {
+	.mq-style-li {
+/*		color: navy;*/
+	}
+	
+	.nav-li {
+    margin: 4px;
+	}
+
+}
 	
 	@media only screen and (device-width: 768px) {
        /* iPad Screens */
 		.mq-style-li {
 		padding: 16px;
 		margin: 5px 0px;
-		color: blue;
+/*		color: blue;*/
 
 		}
 		
-    	}
+}
+
 	
-	@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+	@media screen and (min-device-width: 481px) and (max-device-width: 551px) { 
 		
 	.mq-style-li {
 		margin: 5px 0px;
-		color: red;
+/*		color: red;*/
 	}
 		 .bg-co-top-1,
 		 .bg-co-top-2,
@@ -65,7 +78,7 @@
 	.mq-style-li {
     	padding: 4px;
 		margin: 5px 0px;
-		color: green;
+/*		color: green;*/
 	}
 
 	.column-1-main {
@@ -171,7 +184,7 @@
 	.mq-style-li {
     	padding: 4px;
 		margin: 5px 0px;
-		color: yellow;
+/*		color: yellow;*/
 	}
 		 
 		 .bg-co-top-1,
