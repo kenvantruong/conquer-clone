@@ -1,10 +1,12 @@
-# Project Title
+# Conquer Clone
 
 One Paragraph of project description goes here
 
-## Getting Started
+## Overview
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This landing page was created for the Chingu Voyage 11 Solo Project Pre-Application. It's a landing page inspired by bootstrap template. It has smooth scrolling abilities, nice design, and responsive in mobile deveices.
+
+LIVE LINK : https://kenvantruong.github.io/conquer-clone/
 
 ### Prerequisites
 
