@@ -4,12 +4,11 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    /* overflow-x: hidden;  */
 }
 
-html, body {
-    
-}
+
+
 
 /*<!-- ---------Navigation Area--------------->*/
 .nav-logo {
@@ -81,7 +80,7 @@ html, body {
 }
 
 
-/*<!-- ---------Column--------------->*/
+/*<!-- ---------Card Section--------------->*/
 .column-1-align {flex: 1}
 .column-1-main {
 	width: 86%;
