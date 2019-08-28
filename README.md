@@ -4,7 +4,7 @@
 
 ## Overview
 
-This landing page was created for the Chingu Voyage 11 Solo Project Pre-Application. It's a landing page inspired by Conquer bootstrap template. It has smooth scrolling abilities, nice design, and responsive in mobile deveices.
+This landing page was created for the Chingu Voyage 11 Solo Project Pre-Application. It's a landing page inspired by Conquer bootstrap template. It has smooth scrolling abilities, nice design, and responsive in mobile devices.
 
 LIVE LINK : https://kenvantruong.github.io/conquer-clone/
 
