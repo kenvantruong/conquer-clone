@@ -10,7 +10,6 @@ LIVE LINK : https://kenvantruong.github.io/conquer-clone/
 
 ### Features
 
-- Nice Design
 - Responsive with CSS Flex
 - Custom Bootstrap Button Design
 - Smooth Scroll
