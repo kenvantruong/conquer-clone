@@ -302,12 +302,16 @@ html,body
 	font-size: 33px;
 	text-align: center;
 	padding-top: 25px;
+	padding-bottom: 10px;
+	text-shadow: 3px 5px 2px #474747;
 }
 
-.header-2-p {
-	color: white;
-	text-align: center;
-	padding-top: 15px;
+.header-2-p-style {
+	color: black;
+    text-align: center;
+    padding: 17px;
+    margin: 0px 10px;
+    background-color: rgba(179, 185, 186, 0.6);
 }
 
 
@@ -396,7 +400,7 @@ border: none;
 
 .right-contact-main, input[type="text"], textarea {
 	width: 300px;
-	height: 178px;
+	height: 150px;
 
 color: rgba(179, 185, 186, 0.6);
 border: none;
