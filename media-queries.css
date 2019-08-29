@@ -79,7 +79,13 @@
     	padding: 4px;
 		margin: 5px 0px;
 /*		color: green;*/
-	}
+    }
+    
+    .footer-p {
+        margin-top: 14px;
+        width: 76%;
+        margin: 5px auto;
+    }
 
 	.column-1-main {
 	width: 100%;
