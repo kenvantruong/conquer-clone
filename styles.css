@@ -36,6 +36,13 @@ p-style-v1 {
   background-color: #424A59; 
   color: white;
   display: flex;
+  
+  z-index: 1;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .nav-ul {
