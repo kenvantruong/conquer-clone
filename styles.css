@@ -7,6 +7,10 @@ html,body
     /* overflow-x: hidden;  */
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 
 p-style-v1 {
 	padding: 10px 10px 0px 10px;
@@ -24,6 +28,7 @@ p-style-v1 {
 
 .nav-li {
   cursor: pointer;
+  color: #fff;
 }
 
 .nav-li:hover {
@@ -65,11 +70,16 @@ p-style-v1 {
 
 /*<!-- ---------Header Section--------------->*/
 
-#header-main {
-	background: url(img/bg-forest.jpg) no-repeat center; 
+.header-main {
+	background: url(img/bg-forest.jpg); 
+	background-repeat: no-repeat;
 	background-size: cover;
+/*	background-attachment: fixed;*/
 	/* width: 100%; */
+	width: 100%;
 	height: 30em;
+	
+	
 }
 
 .header-h1 {
@@ -313,12 +323,12 @@ p-style-v1 {
 
 /*<!-- ---------Header 2--------------->*/
 
-#header-2 {
+.header-2 {
 	background: url(img/beach.jpeg) no-repeat center; 
 	background-size: cover;
+	background-attachment: fixed;
 	width: 100%;
-	height: 209px;
-    margin-top: 33px;
+	height: 16em;
 }
 
 
@@ -386,9 +396,10 @@ input[type="text"], textarea {
 }
 
 
-#contact-form-main {
+.contact-form-main {
 	background: url(img/city.jpeg) no-repeat center; 
 	background-size: cover;
+	background-attachment: fixed;
 	width: 100%;
 	height: 20em;
 }
@@ -479,6 +490,19 @@ footer {
 	right: 5px;
 	
 }
+
+/*// ---------------Parallax Scrolling---------------------*/
+* {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+
+
+
 
 
 
