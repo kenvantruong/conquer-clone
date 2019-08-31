@@ -18,38 +18,30 @@
 <div class="scrollUpEnd"></div> 
 <!-- ---- ------------->
 
+<!-- ----HOME---------->
+<div id="home"></div>
+<!-- ---- ------------->
+
 <!-- ---------Navigation Area--------------->
-  <nav id="nav-main">
-		<a></a>
-   	<div class="nav-logo  section1">
-   	</div>
+  <nav id="nav-main" class="navbar">
+		
+   	<div class="nav-logo  section1"></div>
+   	
     <ul class="nav-ul">
-      <li class="home nav-li mq-style-li container">
-					<a>Home</a>
-			</li>
-			<li class="aboutUs nav-li mq-style-li container">
-					<a>About Us</a>
-			</li>
-      <li class="services nav-li mq-style-li container">
-					<a>Services</a>
-			</li>
-      <li class="contact nav-li mq-style-li container">
-					<a>Contact</a>
-			</li>
-      <li class="external nav-li mq-style-li container">
-					<a>External</a>
-			</li>
+      <a href="#home"><li class="home nav-li mq-style-li container">Home</li></a>
+      <a href="#aboutUs"><li class="aboutUs nav-li mq-style-li container">About Us</li></a>
+      <a href="#services"><li class="services nav-li mq-style-li container">Services</li></a>
+      <a href="#contact"><li class="contact nav-li mq-style-li container">Contact</li></a>
+      <a href="#home"><li class="external nav-li mq-style-li container">External</li></a>
+      
     </ul>
     <div class="nav-icon"></div>
 	</nav>
 
-<!-- ---- Home End -->
-<div class="homeEnd"></div> 
-<!-- ---- ------------->
 
 <!-- ---------------Header------------------>  
 
-	<header id="header-main" style="text-align: center;">
+	<header id="parallax" class="header-main" style="text-align: center;">
 		<h1 class="header-h1">CONQUER</h1>
 		<h3 class="header-h3">Simple Bootstrap Template</h3>
 	</header>
@@ -57,8 +49,8 @@
 
 <!-- ---------------Card Section 1 ------------------> 
 
-<!-- ---- About Us End -->
-<div class="aboutUsEnd"></div> 
+<!-- ----HOME---------->
+<div id="aboutUs"></div>
 <!-- ---- ------------->
 
 
@@ -95,8 +87,9 @@
 </section>
 
 
+
 <!-- ---------------Card Section 1.5------------------> 
-<section class="column-1-main" style="padding-top: 20px;">
+<section class="column-1-main" style="padding: 20px;">
 <div class="column-1-align "></div>
 	<div class="column-style-div column-1-div-3">
 		<div class="bg-co-top-4"></div>
@@ -114,20 +107,25 @@
 			<button class="btn-1-5 btn-1-5-h2" style="margin: 0 auto;">Read more</button>
 		</div>
 	</div>
+	
+	
 
 <div class="column-1-align "></div>
+
 </section>
 
-
-<!-- ---------------Header 2------------------> 
-<!-- ---- Services End -->
-<div class="servicesEnd"></div> 
+<!-- ----Services---------->
+<div id="services"></div>
 <!-- ---- ------------->
 
-<section id="header-2" class="section js-section">
+<!-- ---------------Header 2------------------> 
+
+
+<section id="parallax" class="header-2 section js-section">
 	<h2 class="header-2-h2">Our Services</h2>
 	<p class="header-2-style" style="color: #fff; margin: 15px;">don't look even slightly believable. If you are going to use a don't look even slightly believable. If you are going to use a don't look even slightly believable. If you are going to use a</p>
 </section>
+
 
 
 
@@ -185,14 +183,16 @@
 <div class="column-1-align "></div>
 </section>
 
-
+<!-- ----Contact---------->
+<div id="contact"></div>
+<!-- ---- ------------->
 
 <!-- ---------------Contact Form------------------> 
 <!-- ---- Contact End -->
 <div class="contactEnd"></div> 
 <!-- ---- ------------->
 
-<div id="contact-form-main">
+<div id="parallax" class="contact-form-main">
 	<h1 class="header-2-h2">Contact Form</h1>
 	<p class="header-2-p-style">ontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
 	
@@ -220,7 +220,7 @@
 
 <!-- --------------- Footer ------------------> 
 <!-- ---- External End -->
-<div class="externalEnd"></div> 
+ 
 <!-- ---- ------------->
 
 
@@ -238,6 +238,9 @@
 	</div>
 </div>
 
+<div class="externalEnd"></div>
+
 <script type="text/javascript" src="app.js"></script>
+
 </body>
 </html>
